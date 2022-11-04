@@ -1,3 +1,4 @@
+/*UTILITY*/ 
 .floatleft {
     float: left;
 }
@@ -6,10 +7,81 @@
     float: right;
 }
 
-#menu {
+/*Homepage CSS Start*/ 
+.homepage {
+    background-color: yellow;
+}
+
+.homecontainer {  
+display: grid;
+grid-template-columns: 2fr 1fr 1fr;
+grid-template-rows: 2fr 2fr 2fr 1fr;
+gap: 0px 0px;
+grid-auto-flow: column;
+grid-template-areas:
+"menunav welcomecontent welcomecontent"
+"menunav aboutcontent aboutcontent"
+"menunav bestsellers bestsellers";
+}
+
+.menunav { 
+grid-area: menunav;
+background-color: #73c5f6;
+border: 1px solid black;
+height: 100%;
+width: 55%;
+margin-top: 0;
+padding-top: 100px;
+padding-right: 80px;
+padding-bottom: 100%;
+padding-left: 50px;
+}
+
+.welcomecontent { 
+grid-area: welcomecontent;
+background-color: #f6deac;
+border: 1px solid black;
+margin-left: -300px;
+padding-top: 25%;
+padding-right: 25%;
+padding-bottom: 25%;
+padding-left: 25%;
+}
+  
+.aboutcontent { 
+grid-area: aboutcontent;
+background-color: #52526a;
+border: 1px solid black;
+margin-left: -300px;
+padding-top: 25%;
+padding-right: 25%;
+padding-bottom: 25%;
+padding-left: 25%;
+}
+  
+.bestsellers { 
+grid-area: bestsellers;
+background-color: #f6eee6;
+border: 1px solid black;
+margin-left: -300px;
+padding-top: 25%;
+padding-right: 25%;
+padding-bottom: 25%;
+padding-left: 25%;
+}
+/*Homepage CSS End*/ 
+
+/*Main Navigation Pane across all pages*/ 
+/*#menu {
     height: 100%;
     width: 200px;
     background: yellow;
+    border: 1px solid black;
+    margin: 10px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 100%;
+    padding-left: 50px;
 }
     nav {
         float: left;
@@ -25,27 +97,15 @@
     nav li a:hover {
         color: rgb(0,0,0);
         text-decoration: none;
-    }
+    }*/
 
-#parent {
-    display: flex;
-    flex-flow: column;
-}
-    .child1 {
-        background: purple;
-        flex: 1 1 400px;
-    }
-    .child2 {
-        background: hotpink;
-        flex: 1 1 400px;
-    }
-    .child3 {
-        background: cyan;
-        flex: 1 1 400px;
-    }
+    /*Drink Menu page CSS Start*/ 
 
-footer {
-    height: 100px;
-    width: 100%;
-    background: rgb(150,150,150);
-}
+    /*Drink Menu page CSS End*/ 
+
+
+
+    
+    /*Contact page CSS Start*/ 
+
+     /*Contact page CSS End*/ 
