@@ -100,7 +100,30 @@ padding-left: 25%;
     }*/
 
     /*Drink Menu page CSS Start*/ 
+.drinkmenu {
+background-color: #b8b3e9;
+}
 
+.dkcontainer {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+.pika {
+border: 1px solid black;
+}
+.eevee {
+border: 1px solid black;
+}
+.mew {
+border: 1px solid black;
+}
+.bulbasaur {
+border: 1px solid black;
+}
     /*Drink Menu page CSS End*/ 
 
 
