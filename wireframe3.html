@@ -13,8 +13,14 @@
         <!-- Title -->
         <title>Contact Page</title>
     </head>
-    <body>
-        <form action="https://formspree.io/f/xzbwkyqz" method="POST"> <!--Formspree.io to receive submissions from the contact form-->
+    <body class="ctpage">
+        <img src="img/visitpokemoncafe.png" class="ctimage center" alt="People sitting in the Pokéboba Café">
+        
+        <!--Container for contact form-->
+        <div class="ctcontainer"> 
+
+        <!--Formspree.io to receive submissions from the contact form-->
+        <form action="https://formspree.io/f/xzbwkyqz" method="POST">
             <div class="row">
                 <div class="col">
                     <label for="fname">First Name</label>
@@ -38,7 +44,7 @@
             </div>
 
             <button type="submit" class="btn btn-primary" value="submit">Submit</button>
-
           </form>
+        </div>
     </body>
 </html>
