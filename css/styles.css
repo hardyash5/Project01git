@@ -7,7 +7,7 @@
     float: right;
 }
 
-/*Homepage CSS Start*/ 
+/*Wireframe1 / Homepage CSS Start*/ 
 .homepage {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -88,33 +88,32 @@ grid-area: welcomecontent;
 width: 100%;
 background-color: #f6deac;
 border: 1px solid black;
-margin-left: -300px;
 padding-top: 10%;
-padding-right: 25%;
-padding-bottom: 25%;
-padding-left: 25%;
+}
+.welcomecontent h1 {
+    text-align: center;
 }
   
 .aboutcontent { 
 grid-area: aboutcontent;
 background-color: #52526a;
 border: 1px solid black;
-margin-left: -300px;
-padding-top: 25%;
-padding-right: 25%;
+padding-top: 25%; 
 padding-bottom: 25%;
-padding-left: 25%;
+}
+.aboutcontent h1 {
+    text-align: center;
 }
   
 .location { 
 grid-area: location;
 background-color: #f6eee6;
 border: 1px solid black;
-margin-left: -300px;
-padding-top: 25%;
-padding-right: 25%;
+padding-top: 25%; 
 padding-bottom: 25%;
-padding-left: 25%;
+}
+.location h1 {
+    text-align: center;
 }
 /*Homepage CSS End*/ 
 
