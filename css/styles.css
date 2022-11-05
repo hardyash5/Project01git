@@ -28,8 +28,9 @@ header {
         float: left;
     }
     nav {
-        float: left;
-        margin-left: 610px;
+        display: flex;
+        margin-left: 300px;
+        margin-right: 500px;
     }
     nav ul {
         display: flex;
@@ -53,7 +54,6 @@ header {
     .button {
         width: 150px;
         height: 30px;
-        float: right;
         background: linear-gradient(#c8c8c8, #969696);
         text-align: center;
         padding: 15px 5px 5px;
@@ -87,7 +87,7 @@ grid-template-areas:
 .welcomecontent { 
 grid-area: welcomecontent;
 width: 100%;
-background-color: rgb(150,150,150);
+background-color: white;
 border: 1px solid black;
 padding-top: 10%;
 }
@@ -97,7 +97,7 @@ padding-top: 10%;
   
 .aboutcontent { 
 grid-area: aboutcontent;
-background-color: #52526a;
+background-color: rgb(150,150,150);
 border: 1px solid black;
 padding-top: 25%; 
 padding-bottom: 25%;
@@ -119,9 +119,11 @@ padding-bottom: 25%;
 /*Homepage CSS End*/ 
 
 
-/*Drink Menu page CSS Start*/ 
+/*Wireframe2 / Drink Menu page CSS Start*/ 
 .drinkmenu {
-background-color: #b8b3e9;
+background-color: ;
+margin: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .dkcontainer {
@@ -150,14 +152,14 @@ border: 1px solid black;
 .carousel .item > img {
     display: inline-block;
 }
-    /*Drink Menu page CSS End*/ 
+/*Drink Menu page CSS End*/ 
 
 
 
 
-    /*Contact page CSS Start*/ 
+/*Wireframe3 / Contact page CSS Start*/ 
 .ctpage {
-background-color: lightpink;
+background-color: ;
 }
 
 .ctimage {
