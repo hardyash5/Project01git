@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Contact Page</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <!-- Page style -->
+        <link rel="stylesheet" href="css/finalstyles.css">
+    
+        <!-- Title -->
+        <title>Contact Page</title>
+    </head>
+    <body class="ctpage">
+
+        <!--Main Navigation Bar-->
+        <header class="header">
+            <div id="logo"><img src="https://via.placeholder.com/200x60&text=200x60 (Logo)"></div>
+            <nav><ul><li><a href="#">Home</a></li><li><a href="#">Menu</a></li><li><a href="#">Contact</a></li></ul></nav>
+            <div class="button floatright"><a href="#">Order Now</a></div>
+        </header>
+
+        <img src="img/visitpokemoncafe.png" class="ctimage center" alt="People sitting in the Pokéboba Café">
+        
+        <!--Container for contact form-->
+        <div class="ctcontainer"> 
+
+        <!--Formspree.io to receive submissions from the contact form-->
+        <form action="https://formspree.io/f/xzbwkyqz" method="POST">
+            <div class="row">
+                <div class="col">
+                    <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="fname" class="form-control" placeholder="First name">
+                </div>
+
+                <div class="col">
+                    <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lname" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Questions, Comments, or Feedback?</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your text here" ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" value="submit">Submit</button>
+          </form>
+        </div>
+    </body>
+</html>

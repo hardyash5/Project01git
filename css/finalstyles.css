@@ -1,0 +1,10 @@
+/*UTILITY*/ 
+.floatleft {
+    float: left;
+    }
+    .floatright {
+    float: right;
+    }
+    body {
+    margin: 0;
+    }
