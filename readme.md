@@ -2,6 +2,8 @@ Name: Ashley Hardy
 
 Overview/Description of Project 01: A basic website for a fictional Pokémon Boba Café. 
 
+URL: https://hardyash5.github.io
+
 Details on Functionality: There are 3 separate web pages that customers can visit to 
 - learn about the business
 - browse the menu options
