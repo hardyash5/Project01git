@@ -170,45 +170,122 @@ text-align: center;
     width: 50%;
     padding-bottom: 2%;
 }
-footer {
 
-}
 /*Homepage CSS End*/ 
 
 
 /*Wireframe2 / Drink Menu page CSS Start*/ 
 .drinkmenu {
 background-color: #b8b3e9;
-margin-top: 0;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
 }
 
 #carousel {
-padding-top: 70px;
+padding-top: 40px;
 padding-bottom: 20px;
 }
 
+#menuname {
+font-family: 'Bubblegum Sans', cursive;
+font-size: 100px; 
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+text-align: center;
+}
 .dkcontainer {
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 65%;
-padding-top: 2%;
+width: 80%;
 padding-bottom: 2%;
 }
 .pika {
-border: 1px solid black;
-height: 100px;
+border: 1px solid #b8b3e9;
+height: 300px;
+padding-top: 30px;
+padding-left: 10px;
+display: grid;
+grid-template-columns: 50% 50%;
+grid-auto-flow: columns;
+grid-template-areas: 
+"pikaimg pikadrink"
 }
+.pikaimg {
+    grid-area: pikaimg;
+    margin-left: 80px; 
+}
+.pikadrink {
+    grid-area: pikadrink; 
+}
+.pikadrink h1 {
+    font-weight: bold;
+}
+
 .eevee {
-border: 1px solid black;
+border: 1px solid #b8b3e9;
+height: 300px;
+padding-top: 30px;
+padding-left: 10px;
+display: grid;
+grid-template-columns: 50% 50%;
+grid-auto-flow: columns;
+grid-template-areas: 
+"eeveeimg eeveedrink"
+}
+.eeveeimg {
+    grid-area: eeveeimg;
+    margin-left: 80px;
+}
+.eeveedrink {
+    grid-area: eeveedrink;  
+}
+.eeveedrink h1 {
+    font-weight: bold;
 }
 .mew {
-border: 1px solid black;
-height: 100px;
+border: 1px solid #b8b3e9;
+height: 300px;
+padding-top: 30px;
+padding-left: 10px;
+display: grid;
+grid-template-columns: 50% 50%;
+grid-auto-flow: columns;
+grid-template-areas: 
+"mewimg mewdrink"
+}
+.mewimg {
+    grid-area: mewimg;
+    margin-left: 80px;
+}
+.mewdrink {
+    grid-area: mewdrink; 
+}
+.mewdrink h1 {
+    font-weight: bold;
 }
 .bulbasaur {
-border: 1px solid black;
+border: 1px solid #b8b3e9;
+height: 300px;
+padding-top: 30px;
+padding-left: 10px;
+display: grid;
+grid-template-columns: 50% 50%;
+grid-auto-flow: columns;
+grid-template-areas: 
+"bulbimg bulbdrink"
+}
+.bulbimg {
+    grid-area: bulbimg;
+    margin-left: 80px;
+}
+.bulbdrink {
+    grid-area: bulbdrink; 
+}
+.bulbdrink h1 {
+    font-weight: bold;
 }
 .carousel-inner {
 text-align: center;
