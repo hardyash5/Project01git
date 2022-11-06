@@ -1,10 +1,224 @@
+/* CSS reset. Source: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+   }
+   *,
+   *::before,
+   *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+   }
+
 /*UTILITY*/ 
 .floatleft {
-    float: left;
+float: left;
+}
+.floatright {
+float: right;
+}
+body {
+margin: 0;
+}
+
+/*FONT NAMES
+font-family: 'Bubblegum Sans', cursive;
+font-family: 'DynaPuff', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+/*Home Main Navigation Bar Start*/ 
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 110px;
+    background: white;
+    padding: 25px 0;
+    margin-bottom: 0;
+}
+    #logo {
+    order: 1;
+    flex: 1 1 auto;
+    width: 100px;
+    margin-left: 30px;
     }
-    .floatright {
-    float: right;
+    nav {
+    order: 2;
+    flex: 1 1 auto;
+    margin-left: 300px;
+    margin-right: 500px;
     }
-    body {
-    margin: 0;
+    nav ul {
+    padding: 0;
+    justify-content: space-between;
     }
+    nav li {
+        display: inline;
+        margin-right: 20px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    nav li a {
+        color: red;
+        text-decoration: none;
+    }
+    nav li a:hover {
+        color: rgb(150,150,150);
+        text-decoration: none;
+    }
+    .button {
+    order: 3;
+    width: 300px;
+    height: 60px;
+    font-family: 'DynaPuff', cursive;
+    font-size: 2vw;
+    background: linear-gradient(#c8c8c8, #969696);
+    text-align: center;
+    padding: 15px 15px 25px;
+    margin-right: 20px;
+    border: 1px solid rgb(150,150,150);
+    border-radius: 5px;
+    cursor: pointer;
+
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from (#c8c8c8), to (#969696));
+    }
+    .button a {
+        color: rgb(255,255,255);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .button:hover {
+        background: linear-gradient(#969696, #c8c8c8);
+    }
+/*Main Navigation Bar End*/ 
+
+
+/*Wireframe1 / Homepage CSS Start*/ 
+.homepage {
+margin: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.homecontainer {  
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 2fr 2fr;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+"welcomecontent welcomecontent"
+"aboutcontent aboutcontent"
+"location location";
+}
+
+.welcomecontent { 
+grid-area: welcomecontent;
+width: 100%;
+background-color: white;
+border: 1px solid black;
+padding-top: 20px;
+}
+.welcomecontent > img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.aboutcontent { 
+grid-area: aboutcontent;
+background-color: rgb(150,150,150);
+border: 1px solid black;
+padding-top: 25%; 
+padding-bottom: 25%;
+}
+.aboutcontent h1 {
+text-align: center;
+}
+
+.location { 
+grid-area: location;
+background-color: #f6eee6;
+border: 1px solid black;
+padding-top: 25%; 
+padding-bottom: 25%;
+}
+.location h1 {
+text-align: center;
+}
+/*Homepage CSS End*/ 
+
+
+/*Wireframe2 / Drink Menu page CSS Start*/ 
+.drinkmenu {
+background-color: #b8b3e9;
+margin-top: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#carousel {
+padding-top: 70px;
+padding-bottom: 20px;
+}
+
+.dkcontainer {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 65%;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+.pika {
+border: 1px solid black;
+height: 100px;
+}
+.eevee {
+border: 1px solid black;
+}
+.mew {
+border: 1px solid black;
+height: 100px;
+}
+.bulbasaur {
+border: 1px solid black;
+}
+.carousel-inner {
+text-align: center;
+}
+.carousel .item > img {
+display: inline-block;
+}
+/*Drink Menu page CSS End*/ 
+
+
+
+
+/*Wireframe3 / Contact page CSS Start*/ 
+.ctpage {
+background-color: lightpink;
+}
+
+.ctimage {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+
+.ctcontainer {
+border: 1px solid black;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding: 3%;
+}
+ /*Contact page CSS End*/ 
