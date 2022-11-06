@@ -190,7 +190,7 @@ height: 300px;
 padding-top: 30px;
 padding-left: 10px;
 display: grid;
-grid-template-columns: 50% 50%;
+grid-template-columns: repeat(2,1fr);
 grid-auto-flow: columns;
 grid-template-areas: 
 "pikaimg pikadrink"
@@ -205,6 +205,9 @@ margin-left: 80px;
 .pikadrink h1 {
     font-weight: bold;
 }
+.pikapositioning {
+
+}
 
 .eevee {
 border: 1px solid #b8b3e9;
@@ -212,7 +215,7 @@ height: 300px;
 padding-top: 30px;
 padding-left: 10px;
 display: grid;
-grid-template-columns: 50% 50%;
+grid-template-columns: repeat(2,1fr);
 grid-auto-flow: columns;
 grid-template-areas: 
 "eeveeimg eeveedrink"
@@ -234,7 +237,7 @@ height: 300px;
 padding-top: 30px;
 padding-left: 10px;
 display: grid;
-grid-template-columns: 50% 50%;
+grid-template-columns: repeat(2,1fr);
 grid-auto-flow: columns;
 grid-template-areas: 
 "mewimg mewdrink"
@@ -256,20 +259,20 @@ height: 300px;
 padding-top: 30px;
 padding-left: 10px;
 display: grid;
-grid-template-columns: 50% 50%;
+grid-template-columns: repeat(2,1fr);
 grid-auto-flow: columns;
 grid-template-areas: 
 "bulbimg bulbdrink"
 }
 .bulbimg {
-    grid-area: bulbimg;
-    margin-left: 80px;
+grid-area: bulbimg;
+margin-left: 80px;
 }
 .bulbdrink {
-    grid-area: bulbdrink; 
+grid-area: bulbdrink; 
 }
 .bulbdrink h1 {
-    font-weight: bold;
+font-weight: bold;
 }
 
 .carousel-inner {
@@ -277,6 +280,12 @@ text-align: center;
 }
 .carousel .item > img {
 display: inline-block;
+}
+.happypika {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
 }
 /*Drink Menu page CSS End*/ 
 
