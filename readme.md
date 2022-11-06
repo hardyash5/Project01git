@@ -14,5 +14,7 @@ Technologies Used:
 
 Ideas for Future Improvements: 
 - Add more content for drink/food offerings 
-- Make it more mobile friendly with a hamburger menu that collapses & expands for the navigation 
+- Make it more mobile friendly  
 - More complex design elements that make it feel more modern (different shapes, colors, hover features)
+- Connect Google so people can get directions to the business location
+- Add social media accounts so people can follow the business/get updates
