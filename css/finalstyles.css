@@ -22,7 +22,7 @@ body {
 margin: 0;
 }
 
-/*FONT NAMES
+/*FONT NAMES FOR REFERENCE
 font-family: 'Bubblegum Sans', cursive;
 font-family: 'DynaPuff', cursive;
 font-family: 'Montserrat', sans-serif; */
@@ -49,7 +49,7 @@ header {
     }
     nav {
     order: 2;
-    flex: 1 1 auto;
+    flex: 1 1 auto; 
     margin-left: 300px;
     margin-right: 500px;
     }
@@ -101,7 +101,6 @@ header {
 /*Wireframe1 / Homepage CSS Start*/ 
 .homepage {
 margin: 0;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .homecontainer {  
@@ -119,7 +118,7 @@ grid-template-areas:
 .welcomecontent { 
 grid-area: welcomecontent;
 width: 100%;
-background-color: white;
+background-color: #FAF9F6;
 border: 1px solid black;
 padding-top: 20px;
 }
@@ -214,8 +213,8 @@ grid-template-areas:
 "pikaimg pikadrink"
 }
 .pikaimg {
-    grid-area: pikaimg;
-    margin-left: 80px; 
+grid-area: pikaimg;
+margin-left: 80px; 
 }
 .pikadrink {
     grid-area: pikadrink; 
@@ -245,6 +244,7 @@ grid-template-areas:
 .eeveedrink h1 {
     font-weight: bold;
 }
+
 .mew {
 border: 1px solid #b8b3e9;
 height: 300px;
@@ -266,6 +266,7 @@ grid-template-areas:
 .mewdrink h1 {
     font-weight: bold;
 }
+
 .bulbasaur {
 border: 1px solid #b8b3e9;
 height: 300px;
@@ -287,6 +288,7 @@ grid-template-areas:
 .bulbdrink h1 {
     font-weight: bold;
 }
+
 .carousel-inner {
 text-align: center;
 }
@@ -294,8 +296,6 @@ text-align: center;
 display: inline-block;
 }
 /*Drink Menu page CSS End*/ 
-
-
 
 
 /*Wireframe3 / Contact page CSS Start*/ 
@@ -308,16 +308,35 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 width: 20%;
-padding-top: 2%;
-padding-bottom: 2%;
+padding-top: 20px;
+padding-bottom: 10px;
 }
 
-.ctcontainer {
-border: 1px solid black;
+#contacttitle {
+font-family: 'DynaPuff', cursive;
+font-size: 50px;
+text-align: center;
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 50%;
+width: 100%;
+}
+.ctcontainer {
+border: 1px double white;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+width: 40%;
 padding: 3%;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+font-weight: bold;
+}
+#fname, #lname, #emailinput, #comments {
+    font-size: 20px;
+}
+.submitbtn {
+    font-size: 30px;
 }
  /*Contact page CSS End*/ 
