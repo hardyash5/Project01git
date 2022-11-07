@@ -30,33 +30,33 @@ font-family: 'Montserrat', sans-serif; */
 /*Home Main Navigation Bar Start*/ 
 .header {
     font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-flow: row nowrap;
+    display: inline-flex;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
     align-content: center;
     width: 100%;
-    height: 100px;
+    height: 5%;
     background: white;
     margin-bottom: 0;
     }
     #logo {
     order: 1;
+    flex-shrink: 0.5;
     }
     nav {
     order: 2;
-    margin-top: 20px;
+    align-self: center;
     }
-    nav ul {}
     nav li {
     display: inline;
-    padding: 30px;
+    padding: 5%;
     font-weight: bold;
     }
     nav li a {
     color: red;
     text-decoration: none;
-    font-size: 45px;
+    font-size: 2.6vw;
     }
     nav li a:hover {
     color: rgb(134, 4, 4);
@@ -64,16 +64,18 @@ font-family: 'Montserrat', sans-serif; */
     }
     .button {
     order: 3;
-    margin-right: 180px;
-    width: 320px;
-    height: 60px;
+    margin-left: 5%;
+    max-width: 100%;
+    height: 100%;
     font-family: 'DynaPuff', cursive;
-    font-size: 50px;
+    font-size: 2vw;
+    align-self: center;
+    flex-shrink: 1;
     background: linear-gradient(#63a4fa, #177afc);
     text-align: center; 
     line-height: normal;
-    border: 1px solid rgb(150,150,150);
-    border-radius: 60px;
+    border: 2px solid #177afc;
+    border-radius: 1vw;
     cursor: pointer;
     }
     .button a {
@@ -166,7 +168,7 @@ padding-bottom: 10px;
 }
 #menuname {
 font-family: 'Bubblegum Sans', cursive;
-font-size: 100px; 
+font-size: 10vw; 
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -180,6 +182,7 @@ margin-left: auto;
 margin-right: auto;
 width: 80%;
 padding-bottom: 2%;
+font-size: 1vw;
 }
 .row {
 padding-top: 20px;
@@ -201,12 +204,10 @@ margin-left: 80px;
 }
 .pikadrink {
     grid-area: pikadrink; 
+    font-size: 2vh;
 }
 .pikadrink h1 {
     font-weight: bold;
-}
-.pikapositioning {
-
 }
 
 .eevee {
