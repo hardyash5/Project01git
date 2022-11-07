@@ -90,9 +90,6 @@ font-family: 'Montserrat', sans-serif; */
 
 
 /*Wireframe1 / Homepage CSS Start*/ 
-.homepage {
-margin: 0;
-}
 .homecontainer {  
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -214,9 +211,6 @@ margin-left: 80px;
 @media only screen and (max-width: 1250px) {
     .pikaimg {
         display: none;
-    }
-    .pika {
-        font-size: 1vw;
     }
 }
 
