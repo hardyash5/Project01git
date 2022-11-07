@@ -10,14 +10,14 @@ User Stories:
 3. As an event planner, I want to be able to get in contact with the business, so I can ask schedule/organize an event. 
 
 Details on Functionality: There are 3 separate web pages that customers can visit to 
-- learn about the business
-- browse the menu options
-- submit a contact form for inquiries/feedback 
+- Learn about the business
+- Browse the menu options
+- Submit a contact form for catering inquiries or general feedback
 
-Technologies Used: 
-- HTML
-- CSS
-- Bootstrap 
+Technologies Used: (relevent files) 
+- HTML (index.html, index2menupg.html, index3contactpg.html) 
+- CSS (finalstyles.css) 
+- Bootstrap (index2menupg.html, index3contactpg.html) 
 
 Ideas for Future Improvements: 
 - Add more content for drink/food offerings 
@@ -27,3 +27,13 @@ Ideas for Future Improvements:
 - Connect Google Maps so people can get directions to the business location
 - Add media like background music, fun videos/gifs
 - Add social media accounts so people can follow the business/get updates
+
+Install Instructions:
+1. Fork this repository
+2. Clone your forked repository
+3. Add your code (ideas for future improvements)
+4. Commit and push
+5. Create a pull request
+6. Star this repository
+7. Wait for pull request to merge
+8. Contribute more! 
