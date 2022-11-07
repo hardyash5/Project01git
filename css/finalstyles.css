@@ -206,10 +206,19 @@ margin-left: 80px;
 }
 .pikadrink {
     grid-area: pikadrink; 
-    font-size: 2vh;
+    font-size: 1vw;
 }
 .pikadrink h1 {
     font-weight: bold;
+    display: flex;
+}
+@media only screen and (max-width: 1250px) {
+    .pikaimg {
+        display: none;
+    }
+    .pika {
+        font-size: 1vw;
+    }
 }
 
 .eevee {
@@ -233,6 +242,11 @@ grid-template-areas:
 .eeveedrink h1 {
     font-weight: bold;
 }
+@media only screen and (max-width: 1250px) {
+    .eeveeimg {
+        display: none;
+    }
+}
 
 .mew {
 border: 1px solid #b8b3e9;
@@ -255,6 +269,11 @@ grid-template-areas:
 .mewdrink h1 {
     font-weight: bold;
 }
+@media only screen and (max-width: 1250px) {
+    .mewimg {
+        display: none;
+    }
+}
 
 .bulbasaur {
 border: 1px solid #b8b3e9;
@@ -276,6 +295,11 @@ grid-area: bulbdrink;
 }
 .bulbdrink h1 {
 font-weight: bold;
+}
+@media only screen and (max-width: 1250px) {
+    .bulbimg {
+        display: none;
+    }
 }
 
 .carousel-inner {
